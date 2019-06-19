@@ -7,7 +7,7 @@ from bookmarking.models import Bookmark
 
 class BookmarkListView(ListView):
     model = Bookmark
-    paginate_by = 1
+    paginate_by = 5
 
 
 class BookmarkCreateView(CreateView):
